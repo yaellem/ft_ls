@@ -6,7 +6,7 @@
 /*   By: ymarcill <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/02/19 22:31:23 by ymarcill          #+#    #+#             */
-/*   Updated: 2018/05/22 03:36:06 by ymarcill         ###   ########.fr       */
+/*   Updated: 2018/05/26 16:43:02 by ymarcill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@
 # include <uuid/uuid.h>
 # include <errno.h>
 # include <stdio.h>
+# include <sys/sysmacros.h>
 
 typedef	struct		s_param
 {
