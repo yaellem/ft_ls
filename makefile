@@ -6,7 +6,7 @@
 #    By: ymarcill <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/02/15 00:40:21 by ymarcill          #+#    #+#              #
-#    Updated: 2018/05/24 23:32:36 by ymarcill         ###   ########.fr        #
+#    Updated: 2018/05/26 21:27:54 by ymarcill         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,7 @@ OBJ = ./ls_no_option.o			./ls_opt_a.o			./ls_opt_r.o\
 	  ./ls_re_opt_ra.o			./ls_re_opt_t.o			./ft_for_rec.o\
 	  ./ls_opt_re_bis.o
 
-FLAGS = -Wall -Wextra -Werror #-g3 -fsanitize=address
+FLAGS = -Wall -Wextra -Werror
 
 all: $(NAME)
 
